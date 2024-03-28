@@ -1,0 +1,5 @@
+{
+  "files": [],
+  "references": [{ "path": "./components/ark" }],
+  "exclude": ["node_modules"]
+}
