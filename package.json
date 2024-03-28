@@ -29,8 +29,8 @@
     "typescript": "^5.3.3"
   },
   "resolutions": {
-    "next": "14.0.0",
-    "@next/bundle-analyzer": "14.0.0",
+    "next": "14.1.4",
+    "@next/bundle-analyzer": "14.1.4",
     "react": "18.3.0-canary-c3048aab4-20240326",
     "react-dom": "18.3.0-canary-c3048aab4-20240326"
   },
