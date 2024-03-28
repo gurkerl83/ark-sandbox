@@ -1,0 +1,43 @@
+{
+  "name": "ark-sandbox",
+  "version": "0.1.0",
+  "description": "Ark Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf .next",
+    "build": "pnpm clean && next build",
+    "dev": "pnpm clean && next dev --turbo",
+    "start": "next start",
+    "analyze": "pnpm clean && cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@ark-ui/react": "^2.2.3",
+    "@components/ark": "workspace:^",
+    "lucide-react": "^0.363.0",
+    "next": "14.1.4",
+    "react": "18.3.0-canary-c3048aab4-20240326",
+    "react-dom": "18.3.0-canary-c3048aab4-20240326"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "14.1.4",
+    "@types/node": "^20.10.5",
+    "@types/react": "18.2.73",
+    "@types/react-dom": "^18.2.18",
+    "cross-env": "^7.0.3",
+    "prettier": "^3.1.1",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "resolutions": {
+    "next": "14.0.0",
+    "@next/bundle-analyzer": "14.0.0",
+    "react": "18.3.0-canary-c3048aab4-20240326",
+    "react-dom": "18.3.0-canary-c3048aab4-20240326"
+  },
+  "engines": {
+    "node": ">=20.x",
+    "pnpm": ">=8.15.x",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
+  }
+}
