@@ -7,6 +7,8 @@ const inter = Inter({
   display: 'swap',
 });
 
+import '../styles/ark/accordion-animation.css';
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={inter.className}>

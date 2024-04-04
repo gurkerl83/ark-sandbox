@@ -38,8 +38,6 @@ import { Accordion } from '@ark-ui/react';
 
 import ChevronDownIcon from 'lucide-react/dist/esm/icons/chevron-down';
 
-import '../../../styles/ark/accordion-animation.css';
-
 import { Switch } from '@components/ark';
 
 export default function ArkPage() {
